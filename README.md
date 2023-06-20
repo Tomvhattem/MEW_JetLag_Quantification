@@ -6,24 +6,24 @@ The MEW Jet Lag Quantification project is a Python-based tool developed for the 
 
 The project structure consists of the following components:
 
-- **lib/utils**: Contains the main algorithm for jet lag quantification.
+- **lib/**: Contains the main algorithm for jet lag quantification.
+- - `utils.py`: Includes three classes:
     - `debugging class`: Provides debugging functionality for plotting various parts of the algorithm.
     - `video class`: Initializes the OpenCV video and implements basic functionality such as frame rotation, segmentation techniques, and nozzle diameter detection.
     - `jetlag class`: Calculates the jet lag distance in pixels and converts it to millimeters using nozzle calibration. Also determines search height, bottom of the nozzle, and collector plate height.
+- -`Jet_Vibrations_Analysis.py`: Performs analysis on nozzle vibration within a frame.
+- -`Jet_Segmentation.py`: Implements segmentation techniques on the jet.
+  
+- **env/environment.yml**: Describes the project's environment and dependencies in a YAML file.
+  
+- `SquaresAnalysis.py`: Quantifies jet lag for a specific frame range in a given video.
 
-- **lib**: Contains additional scripts and utilities.
-    - `utils.py`: Includes three classes:
-        - `Vibrations`: Performs analysis on nozzle vibration within a frame.
-        - `JetSegmentation`: Implements segmentation techniques on the jet.
-        - `SquaresAnalysis`: Quantifies jet lag for a specific frame range in a given video.
-
-- **environment.yml**: Describes the project's environment and dependencies in a YAML file.
 
 - **Vibrations.py**: Analyzes a given video series and generates plots for normalized pixel change, helping in vibration analysis.
 
 - **SquaresAnalysis.py**: Quantifies jet lag for a specific frame range in a given video.
 
-- **jetlag_full_video.py**: Applies the algorithm to analyze a complete video and plots the jet lag over time.
+- **JetLag_Full_Video.py**: Applies the algorithm to analyze a complete video and plots the jet lag over time.
 
 ## Installation and Usage
 
