@@ -26,7 +26,7 @@ The project structure consists of the following components:
 
 ## Installation and Usage
 
-Please refer to the [env](#env) section for detailed instructions on setting up the project environment and installing dependencies. Once the project is set up, you can use the provided scripts to perform specific analyses on your videos.
+Please refer to the [env](env/) section for detailed instructions on setting up the project environment and installing dependencies. Once the project is set up, you can use the provided scripts to perform specific analyses on your videos.
 
 ## License
 
