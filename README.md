@@ -32,6 +32,11 @@ The project structure consists of the following components:
 
 Please refer to the [env](env/) section for detailed instructions on setting up the project environment and installing dependencies. Once the project is set up, you can use the provided scripts to perform specific analyses on your videos.
 
+## Examaple of analysed frame
+<div align="center">
+  <img src="img/jetlag.jpg" alt="Jet Lag illustration" width="302" height="191">
+</div>
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
