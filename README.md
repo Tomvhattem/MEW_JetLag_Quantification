@@ -2,6 +2,8 @@
 
 The MEW Jet Lag Quantification project is a Python-based tool developed for the Biomaterials Processing and Design Group at the TU/e. It utilizes a linear search algorithm using OpenCV to analyze videos and quantify the jet lag in additive manufacturing processes.
 
+<img src="img/jetlag.jpg" alt="Jet Lag illustration" width="302" height="191">
+
 ## Project Structure
 
 The project structure consists of the following components:
