@@ -29,10 +29,6 @@ The project structure consists of the following components:
 
 Please refer to the [env](#env) section for detailed instructions on setting up the project environment and installing dependencies. Once the project is set up, you can use the provided scripts to perform specific analyses on your videos.
 
-## Contributing
-
-We welcome contributions to the MEW Jet Lag Quantification project. If you would like to contribute, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
