@@ -11,13 +11,12 @@ The project structure consists of the following components:
     - `debugging class`: Provides debugging functionality for plotting various parts of the algorithm.
     - `video class`: Initializes the OpenCV video and implements basic functionality such as frame rotation, segmentation techniques, and nozzle diameter detection.
     - `jetlag class`: Calculates the jet lag distance in pixels and converts it to millimeters using nozzle calibration. Also determines search height, bottom of the nozzle, and collector plate height.
-- -`Jet_Vibrations_Analysis.py`: Performs analysis on nozzle vibration within a frame.
-- -`Jet_Segmentation.py`: Implements segmentation techniques on the jet.
+- - `Jet_Vibrations_Analysis.py`: Performs analysis on nozzle vibration within a frame.
+- - `Jet_Segmentation.py`: Implements segmentation techniques on the jet.
   
 - **env/environment.yml**: Describes the project's environment and dependencies in a YAML file.
   
 - `SquaresAnalysis.py`: Quantifies jet lag for a specific frame range in a given video.
-
 
 - **Vibrations.py**: Analyzes a given video series and generates plots for normalized pixel change, helping in vibration analysis.
 
